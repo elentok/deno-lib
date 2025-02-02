@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+if [ $# -lt 4 ]; then
+  echo "Usage: bin/currency <openExchangeAppId> <from> <to> <value>"
+  exit 1
+fi
+
+deno run --allow-net --allow-read --allow-write --allow-import --allow-env \
+  src/currency.ts "$@"
