@@ -8,9 +8,9 @@ Various helper functions.
 import {
   loadFromCache,
   saveToCache,
-} from "https://github.com/elentok/deno-lib/raw/main/src/cache.ts";
+} from "https://github.com/elentok/deno-lib/raw/main/src/cache.ts"
 
-import { getConversionRate } from "https://github.com/elentok/deno-lib/raw/main/src/currency.ts";
+import { getConversionRate } from "https://github.com/elentok/deno-lib/raw/main/src/currency.ts"
 
-import { existsSync } from "https://github.com/elentok/deno-lib/raw/main/src/fs.ts";
+import { existsSync } from "https://github.com/elentok/deno-lib/raw/main/src/fs.ts"
 ```
