@@ -8,7 +8,7 @@ Various helper functions.
 import {
   loadFromCache,
   saveToCache,
-} from "https://github.com/elentok/deno-lib/raw/master/src/cache.ts";
+} from "https://github.com/elentok/deno-lib/raw/main/src/cache.ts";
 
-import { existsSync } from "https://github.com/elentok/deno-lib/raw/master/src/fs.ts";
+import { existsSync } from "https://github.com/elentok/deno-lib/raw/main/src/fs.ts";
 ```
