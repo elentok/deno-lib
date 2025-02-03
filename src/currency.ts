@@ -39,6 +39,10 @@ export async function fetchFreshConversionRate(
   return json.rates[to]
 }
 
+export function formatCurrency(value: number, currency: string): string {
+  return Intl.NumberFormat(undefined, { style: "currency", currency }).format(value)
+}
+
 if (import.meta.main) {
   const [openExchangeAppId, from, to, rawValue] = Deno.args
   const value = Number(rawValue)
